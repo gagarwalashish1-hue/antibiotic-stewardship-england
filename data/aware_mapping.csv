@@ -1,0 +1,82 @@
+BNF_CHEMICAL_SUBSTANCE_CODE,BNF_CHEMICAL_SUBSTANCE,AWARE_GROUP,NOTE
+0501012G0,Flucloxacillin sodium,Access,
+0501013B0,Amoxicillin,Access,
+0501130R0,Nitrofurantoin,Access,
+0501030I0,Doxycycline hyclate,Access,
+0501011P0,Phenoxymethylpenicillin (Penicillin V),Access,
+0501080W0,Trimethoprim,Access,
+0501050B0,Clarithromycin,Watch,
+0501013K0,Co-amoxiclav (Amoxicillin/clavulanic acid),Watch,
+0501130H0,Methenamine hippurate,Other,
+0501021L0,Cefalexin,Access,
+0501050A0,Azithromycin,Watch,
+0501030L0,Lymecycline,Watch,
+0501110C0,Metronidazole,Access,
+0501015P0,Pivmecillinam hydrochloride,Access,
+0501080D0,Co-trimoxazole(Trimethoprim/sulfamethoxazole),Access,
+0501120L0,Ciprofloxacin,Watch,
+0501070AE,Fosfomycin trometamol,Access,oral fosfomycin
+0501050C0,Erythromycin,Watch,
+0501070X0,Rifaximin,Not classified,not on UK-AWaRe list (mainly used for liver disease)
+0501030T0,Oxytetracycline,Watch,
+0501050H0,Erythromycin ethylsuccinate,Watch,
+0501060D0,Clindamycin hydrochloride,Watch,
+0501030Z0,Doxycycline monohydrate,Access,
+0501120P0,Ofloxacin,Watch,
+0501070I0,Colistimethate sodium,Not classified,judgement: list covers IV and oral colistin; GP colistimethate is usually inhaled
+0501120X0,Levofloxacin,Watch,
+0501100H0,Dapsone,Not classified,leprosy/dermatology drug; not on UK-AWaRe list
+0501030V0,Tetracycline,Access,
+0501070U0,Vancomycin hydrochloride,Watch,
+0501090R0,Rifampicin,Not classified,TB drug; not on UK-AWaRe list
+0501021M0,Cefradine,Access,
+0501050N0,Erythromycin stearate,Watch,
+0501030F0,Demeclocycline hydrochloride,Other,
+0501030P0,Minocycline hydrochloride,Watch,
+0501090K0,Isoniazid,Not classified,TB drug
+0501040H0,Gentamicin sulfate,Access,
+0501120Y0,Moxifloxacin,Watch,
+0501070W0,Linezolid,Reserve,
+0501021K0,Cefuroxime axetil,Watch,
+0501070AC,Fidaxomicin,Watch,
+0501021A0,Cefaclor,Watch,
+0501090H0,Ethambutol hydrochloride,Not classified,TB drug
+0501040U0,Tobramycin,Watch,
+0501021G0,Ceftriaxone sodium,Watch,
+0501090S0,Rifampicin combined preparations,Not classified,TB drug
+0501070T0,Teicoplanin,Watch,
+0501021H0,Ceftazidime pentahydrate,Watch,
+0501021C0,Cefixime,Watch,
+0501021B0,Cefadroxil,Access,
+0501090Q0,Rifabutin,Not classified,TB/mycobacterial drug
+0501011J0,Benzylpenicillin sodium (Penicillin G),Access,
+0501100C0,Clofazimine,Not classified,leprosy drug
+0501013E0,Ampicillin,Access,
+0501022B0,Ertapenem sodium,Reserve,
+0501090N0,Pyrazinamide,Not classified,TB drug
+0501070N0,Sodium fusidate,Watch,fusidic acid
+0501070AF,Dalbavancin hydrochloride,Reserve,
+0501080J0,Sulfadiazine,Other,
+0501022A0,Meropenem,Reserve,
+0501021J0,Cefuroxime sodium,Watch,
+0501013C0,Amoxicillin sodium,Access,
+0501021D0,Cefotaxime sodium,Watch,
+0501070M0,Fusidic acid,Watch,
+0501040N0,Neomycin sulfate,Watch,
+0501014S0,Piperacillin sodium/tazobactam sodium,Watch,
+0501040C0,Amikacin,Watch,
+0501130S0,Fosfomycin calcium,Access,oral fosfomycin
+0501070AB,Nitazoxanide,Not classified,not on UK-AWaRe list
+0501080V0,Sulfapyridine,Other,
+0501070F0,Chloramphenicol,Watch,
+0501110G0,Tinidazole,Access,
+0501013L0,Co-fluampicil(Flucloxacillin/ampicillin),Access,"judgement: not listed by name in UKHSA (2025); both ingredients (flucloxacillin, ampicillin) are Access. OpenPrescribing's UK-AWaRe table classes it as Other. Only 2 items were prescribed in England in Sep 2025-Aug 2026, so the choice has no effect."
+0501090A0,Aminosalicylic acid,Not classified,TB drug
+0501120Q0,Norfloxacin,Watch,
+0501060E0,Clindamycin phosphate,Watch,
+0501050K0,Erythromycin lactobionate,Watch,
+0501012H0,Flucloxacillin magnesium,Access,
+0501100J0,Thalidomide (Antileprotic),Not classified,leprosy drug
+0501090E0,Cycloserine,Not classified,TB drug
+0501021E0,Cefoxitin sodium,Watch,
+0501070Z0,Pristinamycin,Other,
