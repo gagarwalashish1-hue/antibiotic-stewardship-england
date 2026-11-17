@@ -1,0 +1,7 @@
+step,rows_kept
+"Practice-month rows from NHSBSA API (BNF 5.1 antibacterials, UNIDENTIFIED removed)",93651
+Matched to a GP practice patient list,73918
+"Excluding Y-code services (care homes, walk-ins etc.)",70666
+"Practices with at least 1,000 patients",70515
+Practices present in all 12 months,70200
+"Excluding atypical lists: under 150 antibiotic items per 1,000 patients a year (final set)",69492

@@ -1,0 +1,291 @@
+{
+ "n_practices": 5791,
+ "n_practices_before_atypical": 5850,
+ "n_atypical": 59,
+ "england_share": 18.46925666768693,
+ "england_share_awr": 19.136702662490894,
+ "england_rate": 431.2588663080249,
+ "persistent_9plus": 515,
+ "persistent_12": 140,
+ "binom_expected_9plus": 0.3601872281602835,
+ "p_top_next_given_top": 0.5610749823709159,
+ "p_same_status_next": 0.8241157909608954,
+ "p_same_status_if_independent": 0.6800000000000002,
+ "split_half_r": 0.8581061683312691,
+ "split_half_r_ci": [
+  0.8511617425152352,
+  0.8647502572056325
+ ],
+ "spearman_brown_12m": 0.9236352399625457,
+ "noise_share_1month": 0.3610380758361342,
+ "noise_share_12month": 0.04611480482741293,
+ "july_top15_in_12m_top15": 7,
+ "icb_min": [
+  "NHS SOMERSET INTEGRATED CARE BOARD",
+  13.50704725808362
+ ],
+ "icb_max": [
+  "NHS CENTRAL EAST INTEGRATED CARE BOARD",
+  20.302908403114696
+ ],
+ "funnel_phi": 16.045928253658015,
+ "funnel_tau": 0.022479642634130895,
+ "funnel_plain_above_998": 1405,
+ "funnel_od_above_998": 117,
+ "funnel_od_above_95": 461,
+ "funnel_od_below_998": 48,
+ "funnel_od_flagged_also_persistent": 116,
+ "top15_gap_vs_top15_z_overlap": 1,
+ "ICB_share_of_variance": null,
+ "persistent_9plus_no_lyme": 496,
+ "persistent_overlap_with_without_lyme": 375,
+ "persistent_changed_pct": 27.184466019417474,
+ "england_share_no_lyme": 16.07701650328162,
+ "r_share_vs_share_no_lyme": 0.9325626182499527,
+ "england_adq_share": 22.86774584398464,
+ "england_adq_access": 77.11312520934001,
+ "england_items_access": 78.04296381995123,
+ "r_item_share_vs_adq_share": 0.7597056421425274,
+ "watch_total_from_drug_pull": 4794873,
+ "watch_total_from_main_pull": 4794873,
+ "top3_watch_drugs": [
+  "Clarithromycin",
+  "Co-amoxiclav (Amoxicillin/clavulanic acid)",
+  "Azithromycin"
+ ],
+ "top3_watch_pct": 68.51530791326486,
+ "age_slope": 9.907935058086444,
+ "age_slope_ci": [
+  9.549891931018777,
+  10.265978185154111
+ ],
+ "age_intercept": 249.1255943019694,
+ "age_r2": 0.33694229976486545,
+ "age_p": 0.0,
+ "r_age_share": 0.04262424183500558,
+ "p_age_share": 0.0011768998315962755,
+ "imd_practices_matched": 5791,
+ "imd_median_coverage": 0.9988851727982163,
+ "r_imd_share": -0.12118112834251714,
+ "p_imd_share": 2.165570407761712e-20,
+ "r_imd_rate": -0.01759773762736383,
+ "p_imd_rate": 0.1805777903906791,
+ "share_by_imd_fifth": [
+  19.15,
+  18.5,
+  18.19,
+  18.12,
+  18.25
+ ],
+ "reg_r2": 0.13798591424841977,
+ "reg_n": 5791,
+ "reg": {
+  "intercept": {
+   "coef": 1.7887,
+   "se": 0.9561,
+   "t": 1.8709,
+   "p": 0.0614,
+   "ci_low": -0.0852,
+   "ci_high": 3.6626
+  },
+  "imd": {
+   "coef": -0.0178,
+   "se": 0.0041,
+   "t": -4.3552,
+   "p": 0.0,
+   "ci_low": -0.0259,
+   "ci_high": -0.0098
+  },
+  "pct65": {
+   "coef": 0.0093,
+   "se": 0.0064,
+   "t": 1.4575,
+   "p": 0.145,
+   "ci_low": -0.0032,
+   "ci_high": 0.0218
+  },
+  "log_size": {
+   "coef": -0.409,
+   "se": 0.1633,
+   "t": -2.5055,
+   "p": 0.0123,
+   "ci_low": -0.729,
+   "ci_high": -0.089
+  },
+  "icb_share": {
+   "coef": 1.0022,
+   "se": 0.0349,
+   "t": 28.7129,
+   "p": 0.0,
+   "ci_low": 0.9338,
+   "ci_high": 1.0706
+  }
+ },
+ "r2_icb_only": 0.13228473805771424,
+ "reg_rate_r2": 0.41645012940845894,
+ "reg_rate": {
+  "intercept": {
+   "coef": 123.0552,
+   "se": 21.7011,
+   "t": 5.6705,
+   "p": 0.0,
+   "ci_low": 80.521,
+   "ci_high": 165.5894
+  },
+  "imd": {
+   "coef": 3.378,
+   "se": 0.1239,
+   "t": 27.2628,
+   "p": 0.0,
+   "ci_low": 3.1351,
+   "ci_high": 3.6208
+  },
+  "pct65": {
+   "coef": 12.41,
+   "se": 0.195,
+   "t": 63.6505,
+   "p": 0.0,
+   "ci_low": 12.0278,
+   "ci_high": 12.7921
+  },
+  "log_size": {
+   "coef": -0.074,
+   "se": 5.0072,
+   "t": -0.0148,
+   "p": 0.9882,
+   "ci_low": -9.8882,
+   "ci_high": 9.7402
+  }
+ },
+ "reg_share_no_icb_r2": 0.015160113608984727,
+ "reg_per_sd": {
+  "imd": -0.2050056336087866,
+  "pct65": 0.06656683504637158,
+  "log_size": -0.10321340813052125,
+  "icb_share": 1.16885296896256
+ },
+ "persistent_9plus_incl_atypical": 516,
+ "england_share_incl_atypical": 18.473658873715703,
+ "age_r2_incl_atypical": 0.35525304052624646,
+ "shortlist_n": 106,
+ "shortlist_top15_overlap_with_old_top15": 1,
+ "funnel_expected_false_positives": 5.79553132207174,
+ "shortlist_top15_by_z_vs_by_gap_overlap": 4,
+ "icbs_with_no_shortlisted": 10,
+ "max_shortlisted_icb": [
+  "NHS NORTH EAST AND NORTH CUMBRIA INTEGRATED CARE BOARD",
+  17
+ ],
+ "r_icb_share_vs_frac_shortlisted": 0.5986759412194849,
+ "funnel_icb_tau": 0.020334057187604268,
+ "funnel_icb_above_998": 141,
+ "shortlist_icb_n": 120,
+ "shortlist_icb_overlap": 93,
+ "icbs_with_no_shortlisted_icbversion": 4,
+ "persistent_9plus_adq": 360,
+ "persistent_overlap_items_adq": 198,
+ "shortlist_also_persistent_by_adq": 62,
+ "reg_imd_coef_loo": -0.018603456867710744,
+ "reg_imd_p_loo": 6.285131921520477e-06,
+ "reg_imd_coef_fe": -0.017346618865727324,
+ "reg_imd_p_fe": 0.0003549603685515419,
+ "reg_fe_r2": 0.14043361478765126,
+ "r_imd_pct65": -0.46130765197926515,
+ "reg_rate_imd_coef_fe": 2.868433436676625,
+ "oos_flagged_h1": 106,
+ "oos_still_998": 0.5566037735849056,
+ "oos_base_998": 0.01899499222932136,
+ "oos_still_95": 0.8962264150943396,
+ "oos_top4of6": 0.9622641509433962,
+ "oos_below_england": 0.009433962264150943,
+ "oos_mean_share_h1": 28.068596500832033,
+ "oos_mean_share_h2": 27.55866233667658,
+ "oos_england_h2": 18.944335228088896,
+ "shortlist_by_cutoff": {
+  "z>2.58": [
+   193,
+   182,
+   169,
+   136
+  ],
+  "z>3.09": [
+   110,
+   106,
+   104,
+   88
+  ],
+  "z>3.5": [
+   73,
+   72,
+   71,
+   61
+  ]
+ },
+ "adq_dropouts": 44,
+ "adq_dropouts_median_share": 26.849650820761017,
+ "shortlist_median_patients": 6270.875,
+ "others_median_patients": 8993.666666666666,
+ "imd_share_fe_p_ols": 0.00035496036855163477,
+ "imd_share_fe_p_clustered": 0.09814078803960932,
+ "imd_share_quasibinomial_p_clustered": 0.11124418851580166,
+ "imd_rate_fe_coef": 2.8684334366766464,
+ "imd_rate_fe_p_clustered": 5.019458691192457e-34,
+ "persistent_9plus_op_denominator": 522,
+ "persistent_9plus_op_same": 458,
+ "persistent_9plus_incl_atypical_same": 509,
+ "sv_med_total_short": 422.18343396300975,
+ "sv_med_total_other": 438.11011323701683,
+ "sv_med_access_short": 293.7019797831988,
+ "sv_med_access_other": 342.6839272494447,
+ "sv_med_wr_short": 117.60570808229312,
+ "sv_med_wr_other": 78.36361326388005,
+ "sv_wr_per1000_p80": 102.11144626131131,
+ "sv_short_top_wr": 74,
+ "sv_high_wr_normal_share": 559,
+ "excess_wr_shortlist": 30768.685531811778,
+ "excess_wr_all_above": 298778.6803404713,
+ "n_above_england": 2650,
+ "excess_wr_top_fifth": 220233.81300076557,
+ "access_pts_if_shortlist_switched": 0.11847614733691546,
+ "access_pts_if_all_switched": 1.1504601623799842,
+ "sizing_by_benchmark": {
+  "England": {
+   "benchmark_pct": 18.46925666768693,
+   "shortlist_part": 0.10298152966185378,
+   "excess_items": 298778.6803404713,
+   "access_pts": 1.1504601623799842
+  },
+  "median": {
+   "benchmark_pct": 18.14760610495505,
+   "shortlist_part": 0.09369678963870985,
+   "excess_items": 339898.1946477106,
+   "access_pts": 1.3087926212186969
+  },
+  "p25": {
+   "benchmark_pct": 16.230780421503518,
+   "shortlist_part": 0.05740166609126152,
+   "excess_items": 666803.2427037316,
+   "access_pts": 2.5675545725091777
+  },
+  "p10": {
+   "benchmark_pct": 14.484035168903286,
+   "shortlist_part": 0.041685960787157965,
+   "excess_items": 1058713.3813049514,
+   "access_pts": 4.076621421521722
+  }
+ },
+ "oos_unflagged_998": 0.008970976253298154,
+ "low_n": 48,
+ "low_icbs": 18,
+ "low_median_share": 10.326289924373736,
+ "low_both_halves_below_england": 1.0,
+ "low_med_access_1000": 339.57980879646965,
+ "low_med_wr_1000": 41.41047608668424,
+ "all_med_access_1000": 341.8882288482611,
+ "all_med_wr_1000": 78.72854868196025,
+ "low_med_imd": 32.071231856151826,
+ "all_med_imd": 20.946674512391848,
+ "low_med_pct65": 15.985513957033088,
+ "all_med_pct65": 19.042096718079556,
+ "low_med_patients": 5991.916666666666
+}
