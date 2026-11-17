@@ -1,0 +1,9 @@
+# Versions that produced the published results (Python 3.13)
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+openpyxl==3.1.5
+requests==2.34.2
+matplotlib==3.11.2
+statsmodels==0.15.0
+tableauhyperapi==0.0.26963

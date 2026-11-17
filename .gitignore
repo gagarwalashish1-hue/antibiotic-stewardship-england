@@ -1,0 +1,8 @@
+_old_versions/
+_incoming/
+.DS_Store
+~$*
+.~*
+*.twbr
+__pycache__/
+*.tmp
