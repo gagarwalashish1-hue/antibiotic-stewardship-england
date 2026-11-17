@@ -1,26 +1,43 @@
-# The same practices, year after year: higher-risk antibiotic prescribing in English general practice, 2023–2026
+# 36 GP practices have leaned on higher-risk antibiotics three years running
+
+**Higher-risk antibiotic prescribing in English general practice, 2023–2026**
 
 **Authors:** Ashish Agarwal and Aashish Gill
 
 📄 **[One-page summary (PDF)](One_page_summary.pdf)** · 📘 **[Full report](Antibiotic_Stewardship_Report_12m.docx)** · 📊 **[Interactive dashboard](https://public.tableau.com/app/profile/ashish.agarwal6382/viz/AntibioticStewardshipinEnglishGPPractices/Dashboard)**
 
-**Question:** Which GP practices in England use a higher share of "Watch" and "Reserve" (higher-resistance-risk) antibiotics than expected? Is it the same practices year after year, and is it explained by their patients (age, deprivation, recorded disease) or local area?
+Every antibiotic prescription is a small bet against resistance. The NHS sorts antibiotics into **Access** (lower risk) and **Watch** and **Reserve** (higher risk), and wants practices to use Access first. Most GP practices in England do. A small group does not, and it is **the same group every year.**
 
-**What is new here.** OpenPrescribing already publishes every practice's monthly Watch share. This project adds four things that a structured literature search (Nov 2026; Google Scholar, PubMed, medRxiv, Research Square) did not find in published English work for that measure: a funnel plot that separates real outliers from chance and normal variation; a test on later data (two earlier years, followed forward) that played no part in flagging; a check against recorded patient need (QOF disease registers); and a sizing of how much of the national excess the outliers hold.
+We followed all 5,791 GP practices in England through three years of NHS prescribing data (Sep 2023 – Aug 2026) to answer one question: **which practices use more higher-risk antibiotics than expected, and is there a good reason?**
 
-**Who it is for:** an ICB medicines optimisation team deciding which practices to review first.
+## The answer in 30 seconds
 
-**Interactive dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/ashish.agarwal6382/viz/AntibioticStewardshipinEnglishGPPractices/Dashboard) (the workbook file is in [`tableau/`](tableau/)).
+- **It is not chance.** After allowing for practice size and normal variation, 117 practices sit above the strict 99.8% limit, where chance alone would put about 6. The 106 that also stay high month after month form the review shortlist.
+- **It lasts.** Of the practices flagged in one year, **61% were still above the limit a year later** (95% CI 52–70%), against 1% of the rest. **36 practices were flagged in all three years.**
+- **Sicker patients don't explain it.** After allowing for recorded disease (COPD, asthma, diabetes and four more), age and deprivation, **101 of the 106 stay flagged.**
+- **They swap, they don't over-prescribe.** Flagged practices prescribe no more antibiotics overall. They use less Access (294 vs 343 items per 1,000 patients a year) and more Watch and Reserve (118 vs 78).
+- **Fixing them alone is not enough.** The 106 hold only 4–10% of England's excess higher-risk prescribing. They are the place to start, not the whole job.
 
-**Start with:** the dashboard and the written report. The Excel workbook (about 22 MB) is there for anyone who wants to check the calculations.
+**Who it is for:** an ICB medicines optimisation team deciding which practices to review first. The 36 three-year practices are the obvious first conversations.
 
-**Tools:** Excel (every result is a live formula; the only error values are deliberate #N/A cells that keep non-flagged practices off the funnel chart) · SQL (NHSBSA Open Data Portal API) · Python (data pull, charts and an independent cross-check of every number) · Tableau Public
+## What is new here
+
+OpenPrescribing already publishes every practice's monthly Watch share. A structured literature search (Nov 2026; Google Scholar, PubMed, medRxiv, Research Square) found no published English work that adds what this project does for that measure:
+
+1. a **funnel plot** that separates real outliers from chance and normal variation;
+2. a **test on later data**: flags from earlier years followed forward, using data that played no part in flagging;
+3. a **check against recorded patient need** (QOF disease registers);
+4. a **sizing** of how much of the national excess the outliers actually hold.
+
+## Built with
+
+**SQL** (NHSBSA Open Data Portal API) · **Python** (data pull, statistics, charts and an independent cross-check of every number) · **Excel** (every result is a live formula; start at the `Start here` sheet, about 22 MB) · **Tableau Public** (workbook in [`tableau/`](tableau/))
 
 **Data:** 12 months of NHS prescribing for 5,791 GP practices (69,492 practice-month rows, Sep 2025 – Aug 2026) and the two years before (Sep 2023 – Aug 2025), plus patient lists, age bands, IMD 2025 deprivation, QOF 2025-26 disease registers and the UK-AWaRe classification.
 
 ---
 
-## Key findings
+## Detailed findings
 
 | # | Finding | Workbook sheet |
 |---|---|---|
