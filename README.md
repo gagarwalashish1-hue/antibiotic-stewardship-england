@@ -145,3 +145,15 @@ Run order: `python src/get_data.py` → `python src/extended_analysis.py` → `p
 - Hope, E.C. et al. (2018) 'Identifying English practices that are high antibiotic prescribers accounting for comorbidities and other legitimate medical reasons for variation', *EClinicalMedicine*, 6, pp. 36–41. https://doi.org/10.1016/j.eclinm.2018.12.003
 - Curtis, H.J. et al. (2019) 'Time trends and geographical variation in prescribing of antibiotics in England 1998–2017', *Journal of Antimicrobial Chemotherapy*, 74(1), pp. 242–250. https://doi.org/10.1093/jac/dky377
 - Bennett Institute (2026) *OpenPrescribing AWaRe measure* (accessed 16 November 2026). https://openprescribing.net/measure/aware_antibiotics
+
+## Data licence and acknowledgements
+
+Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+- **Prescribing data:** NHSBSA Copyright 2020-2025 (English Prescribing Dataset, NHSBSA Open Data Portal).
+- **Practice list sizes and QOF disease registers:** NHS England.
+- **Deprivation (English indices of deprivation 2025):** Ministry of Housing, Communities and Local Government.
+- **UK-AWaRe antibiotic classification:** UK Health Security Agency.
+- **National comparison figures:** [OpenPrescribing.net](https://openprescribing.net), Bennett Institute for Applied Data Science, University of Oxford.
+
+The files in `data/` are this public data, either as downloaded or as returned by the queries in `sql/`, and are shared under the same licence.
