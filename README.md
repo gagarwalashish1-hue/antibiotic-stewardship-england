@@ -122,6 +122,8 @@ By dose, 62 of the 106 shortlisted practices stay in the top fifth 9+ months. Th
 | `src/make_tableau.py` | Builds the Tableau workbook (`tableau/*.twbx`) with its data extracts |
 | `requirements.txt` | Python packages |
 | `tests/verify.py` | Checks 107 headline numbers in the workbook against the Python recalculation (all match). For sheets 1–14 this is an independent check of Excel formulas. Sheets 15–16 take Python inputs (earlier-year z-scores, case-mix expected shares), so there it checks the counts built on them, not the inputs themselves. |
+| `CODE_GUIDE.md` | Plain-English guide to every script and SQL query |
+| `LICENSE` | MIT licence for the code (the data keeps its own licence, see below) |
 | `outputs/charts/` | Figures used in the report |
 | `outputs/tables/` | Results tables, review shortlist, regression |
 | `tableau/` | Tableau Public workbook and its CSV files |
@@ -156,4 +158,4 @@ Contains public sector information licensed under the [Open Government Licence v
 - **UK-AWaRe antibiotic classification:** UK Health Security Agency.
 - **National comparison figures:** [OpenPrescribing.net](https://openprescribing.net), Bennett Institute for Applied Data Science, University of Oxford.
 
-The files in `data/` are this public data, either as downloaded or as returned by the queries in `sql/`, and are shared under the same licence.
+The code is released under the MIT licence ([`LICENSE`](LICENSE)). The files in `data/` are this public data, either as downloaded or as returned by the queries in `sql/`, and are shared under the same licence.
