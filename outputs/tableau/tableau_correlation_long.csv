@@ -1,0 +1,65 @@
+Variable A,Variable B,r
+"Items per 1,000/yr","Items per 1,000/yr",1.0
+"Items per 1,000/yr",Watch+Reserve %,0.0886558408295383
+"Items per 1,000/yr",% aged 65+,0.5804673115386118
+"Items per 1,000/yr",% aged 15-24,-0.3172071274621866
+"Items per 1,000/yr",% aged 0-9,-0.10988921180228756
+"Items per 1,000/yr",Practice size,-0.0989667639682974
+"Items per 1,000/yr",IMD 2025 score,-0.017597737627365096
+"Items per 1,000/yr",Months in top fifth,0.04550948393790774
+Watch+Reserve %,"Items per 1,000/yr",0.0886558408295383
+Watch+Reserve %,Watch+Reserve %,1.0
+Watch+Reserve %,% aged 65+,0.042624241835006
+Watch+Reserve %,% aged 15-24,-0.04151531750935527
+Watch+Reserve %,% aged 0-9,-0.04019213831555293
+Watch+Reserve %,Practice size,0.009070212455849654
+Watch+Reserve %,IMD 2025 score,-0.12118112834251754
+Watch+Reserve %,Months in top fifth,0.856900260968916
+% aged 65+,"Items per 1,000/yr",0.5804673115386118
+% aged 65+,Watch+Reserve %,0.042624241835006
+% aged 65+,% aged 65+,1.0
+% aged 65+,% aged 15-24,-0.5575506271092842
+% aged 65+,% aged 0-9,-0.5370391617762873
+% aged 65+,Practice size,-0.04260204905358148
+% aged 65+,IMD 2025 score,-0.461307651979265
+% aged 65+,Months in top fifth,-0.009200904566015747
+% aged 15-24,"Items per 1,000/yr",-0.3172071274621866
+% aged 15-24,Watch+Reserve %,-0.04151531750935527
+% aged 15-24,% aged 65+,-0.5575506271092842
+% aged 15-24,% aged 15-24,1.0
+% aged 15-24,% aged 0-9,0.1540151176222407
+% aged 15-24,Practice size,0.06865440668426002
+% aged 15-24,IMD 2025 score,0.35610768099864126
+% aged 15-24,Months in top fifth,-0.0030251671601347055
+% aged 0-9,"Items per 1,000/yr",-0.10988921180228756
+% aged 0-9,Watch+Reserve %,-0.04019213831555293
+% aged 0-9,% aged 65+,-0.5370391617762873
+% aged 0-9,% aged 15-24,0.1540151176222407
+% aged 0-9,% aged 0-9,1.0
+% aged 0-9,Practice size,-0.012745723914621991
+% aged 0-9,IMD 2025 score,0.3991038808227957
+% aged 0-9,Months in top fifth,-0.00690896276668038
+Practice size,"Items per 1,000/yr",-0.0989667639682974
+Practice size,Watch+Reserve %,0.009070212455849654
+Practice size,% aged 65+,-0.04260204905358148
+Practice size,% aged 15-24,0.06865440668426002
+Practice size,% aged 0-9,-0.012745723914621991
+Practice size,Practice size,1.0
+Practice size,IMD 2025 score,-0.1562295111391879
+Practice size,Months in top fifth,-0.11077742085256137
+IMD 2025 score,"Items per 1,000/yr",-0.017597737627365096
+IMD 2025 score,Watch+Reserve %,-0.12118112834251754
+IMD 2025 score,% aged 65+,-0.461307651979265
+IMD 2025 score,% aged 15-24,0.35610768099864126
+IMD 2025 score,% aged 0-9,0.3991038808227957
+IMD 2025 score,Practice size,-0.1562295111391879
+IMD 2025 score,IMD 2025 score,1.0
+IMD 2025 score,Months in top fifth,-0.040558867997914486
+Months in top fifth,"Items per 1,000/yr",0.04550948393790774
+Months in top fifth,Watch+Reserve %,0.856900260968916
+Months in top fifth,% aged 65+,-0.009200904566015747
+Months in top fifth,% aged 15-24,-0.0030251671601347055
+Months in top fifth,% aged 0-9,-0.00690896276668038
+Months in top fifth,Practice size,-0.11077742085256137
+Months in top fifth,IMD 2025 score,-0.040558867997914486
+Months in top fifth,Months in top fifth,1.0
