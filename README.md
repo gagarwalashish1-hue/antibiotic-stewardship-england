@@ -10,7 +10,7 @@ Every antibiotic prescription is a small bet against resistance. The NHS sorts a
 
 We followed all 5,791 GP practices in England through three years of NHS prescribing data (Sep 2023 – Aug 2026) to answer one question: **which practices use more higher-risk antibiotics than expected, and is there a good reason?**
 
-## The answer in 30 seconds
+## 36 practices. Three years. Same pattern.
 
 - **It is not chance.** After allowing for practice size and normal variation, 117 practices sit above the strict 99.8% limit, where chance alone would put about 6. The 106 that also stay high month after month form the review shortlist.
 - **It lasts.** Of the practices flagged in one year, **61% were still above the limit a year later** (95% CI 52–70%), against 1% of the rest. **36 practices were flagged in all three years.**
@@ -18,9 +18,9 @@ We followed all 5,791 GP practices in England through three years of NHS prescri
 - **They swap, they don't over-prescribe.** Flagged practices prescribe no more antibiotics overall. They use less Access (294 vs 343 items per 1,000 patients a year) and more Watch and Reserve (118 vs 78).
 - **Fixing them alone is not enough.** The 106 hold only 4–10% of England's excess higher-risk prescribing. They are the place to start, not the whole job.
 
-**Who it is for:** an ICB medicines optimisation team deciding which practices to review first. The 36 three-year practices are the obvious first conversations.
+**Who should act:** an ICB medicines optimisation team deciding which practices to review first. The 36 three-year practices are the obvious first conversations.
 
-## What is new here
+## Four things this adds
 
 OpenPrescribing already publishes every practice's monthly Watch share. A structured literature search (Nov 2026; Google Scholar, PubMed, medRxiv, Research Square) found no published English work that adds what this project does for that measure:
 
@@ -29,7 +29,7 @@ OpenPrescribing already publishes every practice's monthly Watch share. A struct
 3. a **check against recorded patient need** (QOF disease registers);
 4. a **sizing** of how much of the national excess the outliers actually hold.
 
-## Built with
+## Tools and data
 
 **SQL** (NHSBSA Open Data Portal API) · **Python** (data pull, statistics, charts and an independent cross-check of every number) · **Excel** (every result is a live formula; start at the `Start here` sheet, about 22 MB) · **Tableau Public** (workbook in [`tableau/`](tableau/))
 
@@ -37,7 +37,7 @@ OpenPrescribing already publishes every practice's monthly Watch share. A struct
 
 ---
 
-## Detailed findings
+## Full results
 
 | # | Finding | Workbook sheet |
 |---|---|---|
