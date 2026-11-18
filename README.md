@@ -4,7 +4,7 @@
 
 **Authors:** Ashish Agarwal and Aashish Gill
 
-📄 **[Summary (PDF)](Summary.pdf)** · 📘 **[Full report](Antibiotic_Stewardship_Report_12m.docx)** · 📊 **[Interactive dashboard](https://public.tableau.com/app/profile/ashish.agarwal6382/viz/AntibioticStewardshipinEnglishGPPractices/Dashboard)**
+📄 **[Summary (PDF)](Summary.pdf)** · 📘 **[Report](Antibiotic_Stewardship_Report_Short.docx)** · 📊 **[Interactive dashboard](https://public.tableau.com/app/profile/ashish.agarwal6382/viz/AntibioticStewardshipinEnglishGPPractices/Dashboard)**
 
 Every antibiotic prescription is a small bet against resistance. The NHS sorts antibiotics into **Access** (lower risk) and **Watch** and **Reserve** (higher risk), and wants practices to use Access first. Most GP practices in England do. A small group does not, and it is **the same group every year.**
 
@@ -131,7 +131,7 @@ By dose, 62 of the 106 shortlisted practices stay in the top fifth 9+ months. Th
 
 Run order: `python src/get_data.py` → `python src/extended_analysis.py` → `python src/second_year_casemix.py` → `python src/build_workbook.py` → `python src/chart_polish.py` → (the workbook recalculates itself the first time it is opened in Excel) → `python src/make_charts.py` → `python src/make_tableau.py` → `python tests/verify.py` (after the workbook has been opened and saved once in Excel)
 
-`Antibiotic_Stewardship_Report_12m.docx` is the written report (executive summary, 8 sections, 12 figures).
+`Antibiotic_Stewardship_Report_Short.docx` is the written report (4 figures, 2 tables).
 
 ## Sources
 
