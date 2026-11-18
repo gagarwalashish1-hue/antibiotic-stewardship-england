@@ -4,7 +4,7 @@
 
 **Authors:** Ashish Agarwal and Aashish Gill
 
-📄 **[One-page summary (PDF)](One_page_summary.pdf)** · 📘 **[Full report](Antibiotic_Stewardship_Report_12m.docx)** · 📊 **[Interactive dashboard](https://public.tableau.com/app/profile/ashish.agarwal6382/viz/AntibioticStewardshipinEnglishGPPractices/Dashboard)**
+📄 **[Summary (PDF)](Summary.pdf)** · 📘 **[Full report](Antibiotic_Stewardship_Report_12m.docx)** · 📊 **[Interactive dashboard](https://public.tableau.com/app/profile/ashish.agarwal6382/viz/AntibioticStewardshipinEnglishGPPractices/Dashboard)**
 
 Every antibiotic prescription is a small bet against resistance. The NHS sorts antibiotics into **Access** (lower risk) and **Watch** and **Reserve** (higher risk), and wants practices to use Access first. Most GP practices in England do. A small group does not, and it is **the same group every year.**
 
