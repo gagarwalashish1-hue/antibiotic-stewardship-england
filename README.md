@@ -131,7 +131,7 @@ By dose, 62 of the 106 shortlisted practices stay in the top fifth 9+ months. Th
 
 Run order: `python src/get_data.py` → `python src/extended_analysis.py` → `python src/second_year_casemix.py` → `python src/build_workbook.py` → `python src/chart_polish.py` → (the workbook recalculates itself the first time it is opened in Excel) → `python src/make_charts.py` → `python src/make_tableau.py` → `python tests/verify.py` (after the workbook has been opened and saved once in Excel)
 
-`Antibiotic Stewardship Report.docx` is the written report (4 figures, 2 tables).
+`Antibiotic Stewardship Report.docx` is the written report (executive summary, 5 figures, 3 tables).
 
 ## Sources
 
