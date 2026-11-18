@@ -152,7 +152,7 @@ Run order: `python src/get_data.py` → `python src/extended_analysis.py` → `p
 
 Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
-- **Prescribing data:** NHSBSA Copyright 2020-2025 (English Prescribing Dataset, NHSBSA Open Data Portal).
+- **Prescribing data:** NHSBSA Copyright 2023-2026 (English Prescribing Dataset, NHSBSA Open Data Portal).
 - **Practice list sizes and QOF disease registers:** NHS England.
 - **Deprivation (English indices of deprivation 2025):** Ministry of Housing, Communities and Local Government.
 - **UK-AWaRe antibiotic classification:** UK Health Security Agency.
