@@ -1,0 +1,13 @@
+suppressMessages(library(lme4))
+t <- read.csv("outputs/tables/practices_two_years.csv", stringsAsFactors=FALSE)
+d <- read.csv("outputs/journal/prac.csv", stringsAsFactors=FALSE)
+t <- merge(t, d[,c("pc","icb","cls","wr")], by="pc")
+ctl <- glmerControl(optimizer="bobyqa")
+zfun <- function(w,n,icb,pc){ok<-!is.na(w)&!is.na(n)&n>0; dd<-data.frame(w=w[ok],f=n[ok]-w[ok],icb=icb[ok],pc=pc[ok])
+ m<-glmer(cbind(w,f)~1+(1|icb)+(1|pc),data=dd,family=binomial,control=ctl)
+ v<-as.data.frame(VarCorr(m)); s2<-v$vcov[v$grp=="pc"]; p<-dd$w/(dd$w+dd$f)
+ z<-(qlogis(p)-predict(m,re.form=~(1|icb)))/sqrt(s2+1/((dd$w+dd$f)*p*(1-p))); out<-rep(NA,length(w)); out[ok]<-z; out}
+t$z23 <- zfun(t$wr_2324, t$cls_2324, t$icb, t$pc)
+t$z24 <- zfun(t$wr_2425, t$cls_2425, t$icb, t$pc)
+t$z25 <- zfun(t$wr, t$cls, t$icb, t$pc)
+write.csv(t[,c("pc","z23","z24","z25","short_2324","short_2425","short_2526")],"outputs/journal/ml_years.csv",row.names=FALSE)
