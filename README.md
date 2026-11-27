@@ -18,7 +18,7 @@ We followed all 5,791 GP practices in England through three years of NHS prescri
 - **They swap, they don't over-prescribe.** Flagged practices prescribe no more antibiotics overall. They use less Access (294 vs 343 items per 1,000 patients a year) and more Watch and Reserve (118 vs 78).
 - **Fixing them alone is not enough.** The 106 hold only 4–10% of England's excess higher-risk prescribing. They are the place to start, not the whole job.
 
-> **Journal version (November 2026).** A stricter multilevel model (ICB and practice random effects) keeps 24 of the 106 beyond the 99.8% limit, so the outlier counts above are method-dependent. The persistence finding holds under both methods: 87% of the variation between practices is stable across three years. Preprint: [medRxiv, doi:10.64898/2026.11.18.26368426](https://doi.org/10.64898/2026.11.18.26368426). Code: [journal/](journal/).
+> **Journal version (November 2026).** A stricter multilevel model (ICB and practice random effects) keeps 24 of the 106 beyond the 99.8% limit, so the outlier counts above are method-dependent. Simulating normal practice variation from the multilevel model, the funnel flags about 83 practices (95% range 66–102), so the "about 6 by chance" figure above is optimistic and the shortlist is best read as a screening list. The persistence finding holds under both methods: 87% of the variation between practices is stable across three years. Preprint: [medRxiv, doi:10.64898/2026.11.18.26368426](https://doi.org/10.64898/2026.11.18.26368426). Code: [journal/](journal/).
 
 **Who should act:** an ICB medicines optimisation team deciding which practices to review first. The 36 three-year practices are the obvious first conversations.
 
